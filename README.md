@@ -11,7 +11,7 @@
 📹 **Tutorial en Video**
 A continuación, un video donde explico detalladamente el uso de la herramienta:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/k4_FR2o45CA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Video de YouTube - Uso de P4IvisualInyect](https://img.youtube.com/vi/k4_FR2o45CA/0.jpg)](https://www.youtube.com/watch?v=k4_FR2o45CA)
 
 ---
 
