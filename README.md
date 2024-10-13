@@ -8,6 +8,11 @@
 
 ---
 
+📹 **Tutorial en Video**
+A continuación, un video donde explico detalladamente el uso de la herramienta: [Video de YouTube - Uso de P4IvisualInyect](https://www.youtube.com/watch?v=k4_FR2o45CA&list=PLXp7xU6S8VeyU5tbPI-BQoD0AlgJrshL4&index=27)
+
+---
+
 ⚠️ **Disclaimer**  
 No me hago responsable por el mal uso de esta herramienta.  
 Está diseñada exclusivamente para fines educativos y de uso ético.
