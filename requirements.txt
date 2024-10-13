@@ -1,0 +1,5 @@
+webdriver_manager
+selenium
+pyautogui
+playsound
+tqdm
