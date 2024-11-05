@@ -1,8 +1,8 @@
-# 🕷️ P4IvisualInyect.py - v1.5 - By P4IM0N 🍪
+# 🕷️ P4IvisualInyect.py - v3.1 - By P4IM0N 🍪
 
-**Herramienta avanzada de escaneo de URLs para pruebas de seguridad**
+**Herramienta avanzada de escaneo de URLs para pruebas de seguridad WEB**
 
-🔍 **P4IvisualInyect** es una herramienta diseñada para escanear URLs con parámetros de inyección obtenidos mediante GoSpider y luego procesarlas automáticamente en el navegador con Selenium y Firefox. Su objetivo principal es capturar rutas y ejecuciones exitosas de vulnerabilidades como XSS, LFI, RCE, SQLi, y más. Las capturas se generan y se agregan a los reportes del PoC. Además, la herramienta incluye el manejo de cookies extraídas mediante una extensión de Chrome, que deben ser guardadas en un archivo `.json`.
+🔍 **P4IvisualInyect** es una herramienta diseñada para escanear URLs con parámetros de inyección obtenidos mediante GoSpider 🕷️ y luego procesarlas automáticamente de manera visual en el navegador con Selenium y Firefox 🌐 para ver el comportamiento del sitio web. Su objetivo principal es capturar rutas y ejecuciones exitosas de vulnerabilidades como XSS, LFI, RCE, SQLi ⚠️, y más. Las capturas 📸 se generan y se agregan a los reportes del PoC y son analizadas con la API de OCR space 🧠. Además, la herramienta incluye el manejo de cookies 🍪 extraídas mediante una extensión de Chrome, que deben ser guardadas en un archivo .json. También ofrece la opción de inyecciones por método GET y POST 🚀. Otra opción importante añadida es la de inyección de payloads en headers (User-Agent, etc.) de las request. Y podemos ejecutarla y dejarla trabajando tranquilos 💤 esperando que nos notifique con nuestro bot de Telegram configurado 📲, con un mensaje informando la vulnerabilidad encontrada, payload exitoso y captura de pantalla.
 
 🚀 **¡Ideal para Bug Bounty Hunters y reducir falsos positivos!**
 
@@ -37,6 +37,25 @@ Ejecuta el script `setup.sh` para instalar las dependencias necesarias:
 ```bash
 ./setup.sh
 ```
+
+## Configurar el bot de Telegram
+
+### Paso 1: Crear un Bot en Telegram
+1. Abre Telegram y busca el usuario `@BotFather`.
+2. Usa el comando `/newbot` para crear un nuevo bot y sigue las instrucciones.
+3. Al finalizar, `@BotFather` te proporcionará un **token de API** que necesitarás para enviar mensajes.
+
+### Paso 2: Obtener el ID del Chat
+Necesitarás el **ID del chat** al que quieres enviar el mensaje. Esto puede ser tu chat personal o un grupo.
+
+1. Busca tu bot en Telegram y envíale un mensaje para iniciar la conversación.
+2. Luego, visita la siguiente URL en tu navegador, reemplazando `<TOKEN>` con el token de tu bot:
+```text
+http://testphp.vulnweb.com/
+```
+3. Verás una respuesta en formato JSON que contiene el **ID del chat**. Usa ese ID para enviar mensajes a tu cuenta.
+
+
 
 ### 2. Instalación manual (en caso de problemas)
 Si tienes algún problema de ejecución, asegúrate de que las siguientes dependencias estén correctamente instaladas. Si continúas con problemas, repórtalos para una solución.
