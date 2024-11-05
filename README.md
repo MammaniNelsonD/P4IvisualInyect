@@ -1,5 +1,7 @@
 # 🕷️ P4IvisualInyect.py - v3.1 - By P4IM0N 🍪
 
+---
+
 **Herramienta avanzada de escaneo de URLs para pruebas de seguridad WEB**
 
 🔍 **P4IvisualInyect** es una herramienta diseñada para escanear URLs con parámetros de inyección obtenidos mediante GoSpider 🕷️ y luego procesarlas automáticamente de manera visual en el navegador con Selenium y Firefox 🌐 para ver el comportamiento del sitio web. Su objetivo principal es capturar rutas y ejecuciones exitosas de vulnerabilidades como XSS, LFI, RCE, SQLi ⚠️, y más. Las capturas 📸 se generan y se agregan a los reportes del PoC y son analizadas con la API de OCR space 🧠. Además, la herramienta incluye el manejo de cookies 🍪 extraídas mediante una extensión de Chrome, que deben ser guardadas en un archivo .json. También ofrece la opción de inyecciones por método GET y POST 🚀. Otra opción importante añadida es la de inyección de payloads en headers (User-Agent, etc.) de las request. Y podemos ejecutarla y dejarla trabajando tranquilos 💤 esperando que nos notifique con nuestro bot de Telegram configurado 📲, con un mensaje informando la vulnerabilidad encontrada, payload exitoso y captura de pantalla.
@@ -37,6 +39,7 @@ Ejecuta el script `setup.sh` para instalar las dependencias necesarias:
 ```bash
 ./setup.sh
 ```
+---
 
 ## Configurar el bot de Telegram
 
@@ -55,7 +58,7 @@ http://testphp.vulnweb.com/
 ```
 3. Verás una respuesta en formato JSON que contiene el **ID del chat**. Usa ese ID para enviar mensajes a tu cuenta.
 
-
+---
 
 ### 2. Instalación manual (en caso de problemas)
 Si tienes algún problema de ejecución, asegúrate de que las siguientes dependencias estén correctamente instaladas. Si continúas con problemas, repórtalos para una solución.
@@ -113,10 +116,18 @@ El script ejecutará GoSpider para recopilar URLs, filtrará los resultados y lo
 ---
 
 📈 **Características y Funcionalidades**
-- 🕵️‍♂️ **Escaneo de vulnerabilidades**: Inyección automática de payloads de XSS, LFI, RCE, SQLi, y más.
-- 📸 **Capturas de pantalla**: Toma capturas de las inyecciones exitosas para documentar el PoC.
-- 🍪 **Manejo de cookies**: Extrae y maneja cookies desde un archivo `.json`.
-- 🔄 **Actualizaciones continuas**: Funcionalidades adicionales como el análisis mediante API Key de GPT para una mayor precisión.
+
+🕵️‍♂️ **Escaneo de vulnerabilidades**: Inyección automática de payloads de XSS, LFI, RCE, SQLi, y más.
+
+📸 **Capturas de pantalla**: Toma capturas de las inyecciones exitosas para documentar el PoC.
+
+🍪 **Manejo de cookies**: Extrae y maneja cookies desde un archivo `.json`.
+
+🔄 **Inyecciones en métodos GET y POST**: Pruebas completas de payloads en diferentes métodos de solicitud.
+
+🛡️ **Inyecciones en headers**: Prueba headers como User-Agent y otros para detectar puntos vulnerables en las solicitudes.
+
+📲 **Notificaciones automáticas a Telegram**: Configura un bot para recibir alertas sobre vulnerabilidades encontradas, payloads exitosos y capturas de pantalla.
 
 ---
 
