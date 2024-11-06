@@ -119,7 +119,7 @@ def sonido_alerta(sonido):
 # Función para analizar una captura de pantalla en busca de errores utilizando OCR Space API
 
 def analizar_captura(payload,file_path):
-    api_key = "K81628753788957"  # Reemplazar con tu API Key de OCR Space
+    api_key = "TU_API_KEY_DE_OCR_SPACE"  # Reemplazar con tu API Key de OCR Space
     with open(file_path, "rb") as f:
         image_data = f.read()
         image_base64 = base64.b64encode(image_data).decode("utf-8")
@@ -1034,8 +1034,8 @@ def opcion_cuatro(dominio_unico, payload_txt):
 
 def enviar_mensaje_telegram(vulnerabilidad, payload, request, captura):
     # Datos del bot y el chat
-    bot_token = '8126517672:AAGR_3s8JBf02y-ldOpWR80KUgC3M-LkroI'
-    chat_id = '1161716411'
+    bot_token = 'TU_TOKEN_BOT_TELEGRAM'
+    chat_id = 'TU_ID_DEL_CHAT_TELEGRAM'
     
     # Mensaje a enviar
     mensaje = f'POSIBLE VULNERABILIDAD ENCONTRADA:\nVulnerabilidad: {vulnerabilidad}\nPayload: {payload}\nRequest: {request}'
