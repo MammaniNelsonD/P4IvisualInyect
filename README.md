@@ -13,7 +13,7 @@
 📹 **Tutorial en Video**
 A continuación, un video donde explico detalladamente el uso de la herramienta:
 
-[![Video de YouTube - Uso de P4IvisualInyect](https://img.youtube.com/vi/k4_FR2o45CA/0.jpg)](https://www.youtube.com/watch?v=cDLosnrV6nY&ab_channel=P4IM0N-Hacking)
+[![Video de YouTube - Uso de P4IvisualInyect](https://img.youtube.com/vi/k4_FR2o45CA/0.jpg)](https://www.tiktok.com/@p4im0n_hacking/video/7433644135778716934?_r=1&_t=8rHyLSISqIC)
 
 
 ---
