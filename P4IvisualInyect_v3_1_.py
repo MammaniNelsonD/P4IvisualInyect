@@ -487,6 +487,13 @@ def opcion_uno(dominio_spider,payload_txt):
                         print(f'------------------------------------------------------------------------------')
                         print(f'{AZUL}- [PAYLOAD: {payload}] {AMARILLO}-{RESET} captura guardada en {archivo_captura}{RESET}')
                         print(f'------------------------------------------------------------------------------')
+
+                        # Aquí intentamos aceptar cualquier alerta que pueda haber aparecido
+                        try:
+                            alert = driver.switch_to.alert
+                            alert.accept()  # Acepta la alerta (como si el usuario hiciera clic en "OK")
+                        except:
+                            pass  # No imprime nada, simplemente no hace nada si no hay alerta
                         # Analizar la captura de pantalla
                         analizar_captura(payload,ruta_archivo)
 
@@ -669,6 +676,13 @@ def opcion_dos(dominio_unico,payload_txt):
                     print(f'------------------------------------------------------------------------------')
                     print(f'{AZUL}- [PAYLOAD: {payload}] {AMARILLO}-{RESET} captura guardada en {archivo_captura}{RESET}')
                     print(f'------------------------------------------------------------------------------')
+
+                    # Aquí intentamos aceptar cualquier alerta que pueda haber aparecido
+                    try:
+                        alert = driver.switch_to.alert
+                        alert.accept()  # Acepta la alerta (como si el usuario hiciera clic en "OK")
+                    except:
+                        pass  # No imprime nada, simplemente no hace nada si no hay alerta
                     
                     # Analizar la captura de pantalla
                     analizar_captura(payload,ruta_archivo)
@@ -827,6 +841,13 @@ def opcion_tres(url_post, payload_txt, additional_fields):
                 print(f'{AZUL}- [PAYLOAD POST: {payload}] {AMARILLO}-{RESET} captura guardada en {archivo_captura}{RESET}')
                 print(f'------------------------------------------------------------------------------')
 
+                # Aquí intentamos aceptar cualquier alerta que pueda haber aparecido
+                try:
+                    alert = driver.switch_to.alert
+                    alert.accept()  # Acepta la alerta (como si el usuario hiciera clic en "OK")
+                except:
+                    pass  # No imprime nada, simplemente no hace nada si no hay alerta
+              
                 # Analizar la captura de pantalla
                 analizar_captura(payload, ruta_archivo)
 
@@ -996,6 +1017,13 @@ def opcion_cuatro(dominio_unico, payload_txt):
                     archivo_captura = re.sub(r'[^\w\-_\. ]', '_', dominio_unico) + ".png"
                     ruta_archivo = os.path.join(directorio_capturas, archivo_captura)
                     driver.save_screenshot(ruta_archivo)
+
+                    # Aquí intentamos aceptar cualquier alerta que pueda haber aparecido
+                    try:
+                        alert = driver.switch_to.alert
+                        alert.accept()  # Acepta la alerta (como si el usuario hiciera clic en "OK")
+                    except:
+                        pass  # No imprime nada, simplemente no hace nada si no hay alerta
 
                     print(f'{AZUL}- [{dominio_unico}]![ HEADERS: {headers_a_inyectar}: {payload} ] - captura]({archivo_captura}){RESET}')
                     analizar_captura(payload, ruta_archivo)
